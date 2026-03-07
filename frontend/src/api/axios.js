@@ -1,7 +1,11 @@
 import axios from "axios";
+const isLocalhost = window.location.hostname === "localhost";
+const API_URL = isLocalhost
+  ? "http://localhost:3000"
+  : "https://admin-dashboard-y4eh.onrender.com";
 
 const api = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: API_URL,
 });
 
 api.interceptors.request.use(

@@ -4,7 +4,7 @@ const cors = require("cors");
 const errorHandler = require("./middleware/errorHandler");
 
 const app = express();
-app.use(cors({ origin: "http://localhost:5173" }));
+app.use(cors());
 app.use(express.json());
 app.use("/", router);
 app.use(errorHandler);
