@@ -55,18 +55,6 @@ const AppInfo = () => {
           ))}
         </div>
       </div>
-
-      {/* Notifications Section */}
-      <div className="border-t border-gray-100 pt-6 mt-8 flex items-center justify-between">
-        <div>
-          <p className="text-sm font-medium text-gray-900">Notifications</p>
-          <p className="text-xs text-gray-500 mt-1">
-            Configure how you receive system updates and alerts.
-          </p>
-        </div>
-
-        <span className="text-sm font-medium text-gray-700">Enabled</span>
-      </div>
     </div>
   );
 };

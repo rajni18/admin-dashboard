@@ -52,13 +52,13 @@ const MainDashboard = () => {
   return (
     <>
       <div
-        className="px-12 pt-8 p-6 flex flex-col gap-6 
+        className="px-2 md:px-12 pt-8 p-6 flex flex-col gap-6 
 bg-gray-100 dark:bg-zinc-900 
 min-h-screen 
 text-gray-800 dark:text-zinc-200"
       >
         {/* cards */}
-        <div className="flex gap-6 justify-center align-center mb-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
           {dashboardCardsData.map((card) => (
             <div key={card.id} className="flex-1">
               <InfoCards card={card} />

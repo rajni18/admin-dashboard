@@ -28,12 +28,13 @@ const UserList = ({ limit, recentUsers, filteredUsers }) => {
           Recent Users
         </h2>
       </div>
-
-      <UserRow
-        limit={limit}
-        recentUsers={recentUsers}
-        filteredUsers={filteredUsers}
-      />
+      <div className="overflow-x-auto">
+        <UserRow
+          limit={limit}
+          recentUsers={recentUsers}
+          filteredUsers={filteredUsers}
+        />
+      </div>
     </div>
   );
 };

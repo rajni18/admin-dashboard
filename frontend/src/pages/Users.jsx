@@ -50,7 +50,7 @@ const Users = () => {
       </div>
 
       {/* Table Section */}
-      <div className="px-8 pb-8">
+      <div className="px-2 md:px-8 pb-8">
         <div
           className="
           bg-white dark:bg-zinc-800 dark:text-white 
