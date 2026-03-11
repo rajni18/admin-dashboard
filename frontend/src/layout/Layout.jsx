@@ -10,7 +10,7 @@ const Layout = () => {
 
   return (
     <>
-      <div className="min-h-screen max-w-[1400px] mx-auto flex flex-col">
+      <div className="h-screen max-w-[1400px] mx-auto flex flex-col">
         <header className="h-16 border-b z-50">
           <Header handleSidebar={handleSidebar} />
         </header>
