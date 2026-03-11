@@ -4,10 +4,27 @@ A professional, high-performance **MERN Stack** Admin Dashboard designed for sec
 
 ---
 
+## 📸 Project Previews
+
+|                         📊 Main Dashboard (Light)                          |                             👥 User Management                              |
+| :------------------------------------------------------------------------: | :-------------------------------------------------------------------------: |
+| <img src="./screenshots/dashboard-1.png" width="500" alt="Dashboard View"> |   <img src="./screenshots/users-table.png" width="500" alt="User Table">    |
+|                         **📈 Analytics & Growth**                          |                           **🔐 Login Interface**                            |
+| <img src="./screenshots/dashboard-2.png" width="500" alt="Analytics View"> | <img src="./screenshots/Screenshot (180).png" width="500" alt="Login Page"> |
+
+### ⚙️ Settings & Mobile Experience
+
+|                          🌓 Dark Mode Customization                           |                            📱 Fully Responsive                            |
+| :---------------------------------------------------------------------------: | :-----------------------------------------------------------------------: |
+| <img src="./screenshots/settings-2.png" width="500" alt="Dark Mode Settings"> | <img src="./screenshots/in-mobilecase.png" width="250" alt="Mobile View"> |
+
+---
+
 ## ✨ Key Features
 
 - **🔐 Secure Authentication**: Admin-only access using **JWT (JSON Web Tokens)** and password hashing with **bcrypt**.
 - **📊 Interactive Analytics**: Real-time data visualization using **Recharts**, including:
+- **Data Seeding**: Implemented a custom script to populate the dashboard with realistic user data for demonstration.
   - **User Growth Chart**: Tracks registrations over time.
   - **User Status Distribution**: Pie chart for Active vs. Inactive users.
 - **👥 Complete User Management (CRUD)**:

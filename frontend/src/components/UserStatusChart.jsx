@@ -10,13 +10,13 @@ import {
 const COLORS = ["#4ade80", "#f87171"];
 
 const UserStatusChart = ({ stats }) => {
-   if (!stats) return null; 
+  if (!stats) return null;
   const data = [
     { name: "Active", value: stats.activeUsers },
     { name: "Inactive", value: stats.inActiveUsers },
   ];
   return (
-    <div className="bg-white p-4 rounded-lg shadow">
+    <div className="bg-white dark:bg-zinc-800 p-4 rounded-lg shadow text-zinc-900 dark:text-white">
       <h2 className="text-lg font-semibold mb-4">User Status</h2>
 
       <ResponsiveContainer width="100%" height={300}>
