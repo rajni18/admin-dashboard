@@ -12,17 +12,17 @@ A professional, high-performance **MERN Stack** Admin Dashboard designed for sec
 
 ## 📸 Project Previews
 
-|                         📊 Main Dashboard (Light)                          |                             👥 User Management                              |
-| :------------------------------------------------------------------------: | :-------------------------------------------------------------------------: |
-| <img src="./screenshots/dashboard-1.png" width="500" alt="Dashboard View"> |   <img src="./screenshots/users-table.png" width="500" alt="User Table">    |
-|                         **📈 Analytics & Growth**                          |                           **🔐 Login Interface**                            |
-| <img src="./screenshots/dashboard-2.png" width="500" alt="Analytics View"> | <img src="./screenshots/Screenshot (180).png" width="500" alt="Login Page"> |
+|                              📊 Full Dashboard View                               |                          👥 User Management Page                           |
+| :-------------------------------------------------------------------------------: | :------------------------------------------------------------------------: |
+| <img src="./screenshots/dashboardPage.png" width="100%" alt="Dashboard Overview"> |   <img src="./screenshots/UsersPage.png" width="100%" alt="Users List">    |
+|                               **⚙️ Admin Settings**                               |                           **🌓 Dark Theme Mode**                           |
+|    <img src="./screenshots/SettingsPage.png" width="100%" alt="Settings Page">    | <img src="./screenshots/settings-2.png" width="100%" alt="Dark Mode View"> |
 
-### ⚙️ Settings & Mobile Experience
+### 📱 Mobile Responsiveness
 
-|                          🌓 Dark Mode Customization                           |                            📱 Fully Responsive                            |
-| :---------------------------------------------------------------------------: | :-----------------------------------------------------------------------: |
-| <img src="./screenshots/settings-2.png" width="500" alt="Dark Mode Settings"> | <img src="./screenshots/in-mobilecase.png" width="250" alt="Mobile View"> |
+|                           Dashboard Mobile View                           |
+| :-----------------------------------------------------------------------: |
+| <img src="./screenshots/in-mobilecase.png" width="280" alt="Mobile View"> |
 
 ---
 
