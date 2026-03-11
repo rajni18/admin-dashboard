@@ -4,6 +4,12 @@ A professional, high-performance **MERN Stack** Admin Dashboard designed for sec
 
 ---
 
+## 🔗 Links
+
+**[👉Live project Link](https://admin-dashboard-sooty-one-90.vercel.app/)**
+
+---
+
 ## 📸 Project Previews
 
 |                         📊 Main Dashboard (Light)                          |                             👥 User Management                              |
@@ -24,15 +30,15 @@ A professional, high-performance **MERN Stack** Admin Dashboard designed for sec
 
 - **🔐 Secure Authentication**: Admin-only access using **JWT (JSON Web Tokens)** and password hashing with **bcrypt**.
 - **📊 Interactive Analytics**: Real-time data visualization using **Recharts**, including:
-- **Data Seeding**: Implemented a custom script to populate the dashboard with realistic user data for demonstration.
   - **User Growth Chart**: Tracks registrations over time.
   - **User Status Distribution**: Pie chart for Active vs. Inactive users.
+- **💾 Data Seeding** : Implemented custom scripts to populate realistic user data for demo purposes.
 - **👥 Complete User Management (CRUD)**:
   - Edit and Delete users.
   - Toggle user status and view recent signups.
 - **🔍 Advanced Search & Filter**: Quickly find users by Name/Email or filter by status.
 - **📱 Fully Responsive**: Optimized for all devices (**Mobile-first approach, 360px+ support**).
-- **🌓 Dark Mode**: Seamless theme switching for better user experience.
+- **Theme Switching:** Persistent Dark/Light mode support.
 - **🛡️ Protected Routes**: Ensures only authenticated admins can access dashboard data.
 
 ---
